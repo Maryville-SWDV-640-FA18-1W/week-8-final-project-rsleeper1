@@ -87,6 +87,11 @@ img.align-content-center {
   height: 250px;
   display: block;
   margin: 0px auto;
+  outline-style: double;
+  outline-width: 10px;
+  outline-color: #C60C30;
+  outline-style: groove;
+  outline-width: 5px;
 }
 iframe {
   display: block;

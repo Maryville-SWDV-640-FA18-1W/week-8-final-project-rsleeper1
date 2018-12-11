@@ -23,8 +23,36 @@ table tbody tr:nth-child(even) {background: #CCC;}
 table tbody tr:nth-child(odd) {background: #FFF;}
 
 td{
-    text-align: center;
+    text-align: center; 
 }
+
+.links{
+    padding: 10px;
+    background-color: @silver;  
+    border: 5px groove @red;
+    
+    &:hover{
+        color: @black;
+        font-weight: bold;
+    }
+}
+
+a{
+    color:@blue;
+    &:hover{
+        color:@black;
+        font-weight: bold;
+    }
+}
+
+.tableLink{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    color: @black;
+}
+
 
 .borderStyle{
     outline-style: double;
@@ -98,7 +126,7 @@ h2 {
     height: 250px;
     padding: 25px;
     border-width: 5px;
-    border-style: dashed;
+    border-style: groove;
     border-color:@red;
     background-color:@silver;
 }
@@ -110,7 +138,7 @@ h2 {
     height: 750px;
     padding: 25px;
     border-width: 5px;
-    border-style: dashed;
+    border-style: groove;
     border-color:@red;
     background-color:@silver;
     text-align: center;
@@ -122,7 +150,7 @@ img{
     margin-left: 3.5%;
     margin-top: 5%;
     border-width: 5px;
-    border-style: dashed;
+    border-style: groove;
     border-color:@red;
     background-color:@silver; 
 }
