@@ -44,8 +44,8 @@ h2 {
 }
 .container .col {
   position: relative;
-  width: 100%;
-  min-height: 1px;
+  width: 250px;
+  height: 150px;
   margin-left: 100px;
   margin-right: 100px;
   margin-top: 50px;
@@ -96,10 +96,9 @@ img.align-content-center {
 iframe {
   display: block;
   margin: 0px auto;
-  outline-style: double;
-  outline-width: 10px;
-  outline-color: #C60C30;
   outline-style: groove;
+  outline-width: 6px;
+  outline-color: #C60C30;
 }
 p {
   text-align: center;
@@ -115,9 +114,12 @@ button {
   margin: 0px auto;
   margin-top: 4%;
   margin-bottom: 10%;
-  height: 40px;
-  width: 80px;
+  height: 60px;
+  width: 100px;
   border: #C60C30 double 5px;
-  color: #002244;
-  background-color: #B0B7BC;
+  color: #B0B7BC;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #002244;
 }
